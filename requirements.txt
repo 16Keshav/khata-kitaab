@@ -19,7 +19,7 @@ click==7.1.2
 cmake==3.18.4.post1
 decorator==5.0.8
 defusedxml==0.7.1
-Django @ file:///tmp/build/80754af9/django_1617740316746/work
+django==3.2
 djangorestframework==3.12.4
 dlib==19.22.0
 drf-spectacular==0.15.1
