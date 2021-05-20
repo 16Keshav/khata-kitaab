@@ -15,6 +15,7 @@ def home(request):
 
         if expense_type == 'Positive':
             profile.balance += float(amount)
+            profile.income += float(amount)
         else:
             profile.expenses += float(amount)
             profile.balance -= float(amount)

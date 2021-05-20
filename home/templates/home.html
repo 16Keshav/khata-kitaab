@@ -45,17 +45,23 @@
         <div class="form-control">
         <label for="amount"
             >Amount <br />
-            (negative - expense, positive - income)</label
-        >
+            <!-- (negative - expense, positive - income) --></label>
         <input type="number" required name="amount" id="amount" placeholder="Enter amount..." />
         </div>
 
         <div class="form-control">
-        <label for="text">Text</label>
+        <!-- <label for="text">Type</label>
         <select name="expense_type" required class="form-control">
             <option value="Positive">Positive</option>
             <option value="Negative">Negative</option>
-        </select>
+        </select> -->
+
+        <label for="text">Type</label><br/>
+        <input type="radio" name="expense_type" required value="Positive">
+        <label for="text">Income</label><br>
+        <input type="radio" name="expense_type" required value="Negative">
+        <label for="text">Expense</label><br>
+
         </div>
         <button class="btn" type="submit">Add transaction</button>
     </form>
