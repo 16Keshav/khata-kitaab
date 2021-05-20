@@ -11,7 +11,13 @@ def home(request):
         expense_type = request.POST.get('expense_type')
 
         expense = Expense(name=text, amount=amount, expense_type=expense_type, user=request.user)
+
+        # profile.balance = 0.0
+        # profile.income = 0.0
+        # profile.expenses = 0.0
+
         expense.save()
+        
 
         if expense_type == 'Positive':
             profile.balance += float(amount)
