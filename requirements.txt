@@ -1,7 +1,7 @@
 altair==4.1.0
 appdirs==1.4.4
 argon2-cffi==20.1.0
-asgiref @ file:///tmp/build/80754af9/asgiref_1617740417847/work
+asgiref==3.3.4
 astor==0.8.1
 astroid==2.5.6
 async-generator==1.10
@@ -20,7 +20,7 @@ cmake==3.18.4.post1
 decorator==5.0.8
 defusedxml==0.7.1
 dj-database-url==0.5.0
-Django @ file:///tmp/build/80754af9/django_1617740316746/work
+Django==3.2
 django-environ==0.4.5
 django-heroku==0.3.1
 djangorestframework==3.12.4
@@ -40,14 +40,14 @@ ipython-genutils==0.2.0
 ipywidgets==7.6.3
 isort==5.8.0
 jedi==0.18.0
-Jinja2 @ file:///tmp/build/80754af9/jinja2_1612213139570/work
+Jinja2==2.11.3
 jsonschema==3.2.0
 jupyter-client==6.1.12
 jupyter-core==4.7.1
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.0.0
 lazy-object-proxy==1.6.0
-MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1607027305082/work
+MarkupSafe==1.1.1
 matplotlib-inline==0.1.2
 mccabe==0.6.1
 mistune==0.8.4
@@ -70,7 +70,7 @@ Pillow==8.2.0
 prometheus-client==0.10.1
 prompt-toolkit==3.0.18
 protobuf==3.17.0
-psycopg2 @ file:///tmp/build/80754af9/psycopg2_1612298595717/work
+psycopg2==2.8.6
 ptyprocess==0.7.0
 pycparser==2.20
 pydeck==0.6.2
@@ -85,8 +85,9 @@ PyQt5-sip==12.8.1
 PyQtWebEngine==5.15.4
 PyQtWebEngine-Qt5==5.15.2
 pyrsistent==0.17.3
+python==3.9.2
 python-dateutil==2.8.1
-pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+pytz==2021.1
 PyYAML==5.4.1
 pyzmq==22.0.3
 regex==2021.4.4
@@ -94,7 +95,7 @@ requests==2.25.1
 Send2Trash==1.5.0
 six==1.15.0
 smmap==4.0.0
-sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
+sqlparse==0.4.1
 streamlit==0.82.0
 terminado==0.9.5
 testpath==0.4.4
