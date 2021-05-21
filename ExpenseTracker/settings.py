@@ -25,8 +25,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-n_oe#22xc1s3rxjn%n9z_&flab5llk!mrk225ow^i0(&1+u(9h'
 
+SECRET_KEY = os.environ.get('SECRET_KEY')
+EMAIL_HOST_USER = os.environ.get('keshav28288@gmail.com')
+EMAIL_HOST_PASSWORD = os.environ.get('@Keshav28288')
+
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
